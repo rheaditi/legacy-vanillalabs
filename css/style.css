@@ -1,0 +1,114 @@
+body {
+	background-color: #34495e;
+	color: #2B2C26;
+}
+
+
+#rbn {
+	max-width: 80%;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+
+.arrow{
+    font-size: 3.5em;
+    opacity: 0.85;
+    color: #ffffff;
+}
+
+h2 {
+	font-family: 'RalewayThin';
+	font-size: 2.5em;
+	color: #ffffff;
+	display: inline-block;
+	letter-spacing: 2px;
+	padding: 0px 40px;
+	text-transform: uppercase;
+	border-top: 4px solid #fffffe;
+	border-bottom: 4px solid #fffffe;
+	margin-bottom: 1em;
+    opacity: 0.75;
+}
+
+h3{
+    font-family: "RalewayMedium";
+    opacity: 0.9;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+h1 {
+	font-family: 'KomikoTitle';
+	font-size: 2.5em;
+	color: #ffffff;
+	background-color: #2B2C26;
+	display: inline-block;
+	letter-spacing: 2px;
+	padding: 0px 40px;
+	text-transform: uppercase;	
+	margin-bottom: 1em;
+} 
+
+
+@font-face {
+    font-family: 'RalewayMedium';
+    src: url("../fonts/Raleway-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'RalewayThin';
+    src: url("../fonts/Raleway-Thin.ttf");
+}
+
+.main{
+    height: 100%;
+    widht: 100%;
+}
+
+.first{
+    height: 100%;
+    background-color: #F62459;
+    color: #fffffe;
+}
+
+.second{
+    height: 100%;
+    background-color: #fffffe;
+    color: #1e1e1e;
+}
+
+.third{
+    height: 100%;
+    background-color: #34495e;
+    color: #fffffe;
+}
+
+.fourth{
+    height: 100%;
+    background-color: #F62459;
+    color: #fffffe;
+}
+
+.footer{
+    height: 100%;
+    background-color: #34495e;
+    color: #fffffe;
+}
+
+h5{
+    font-family: "RalewayThin";
+    opacity: 0.9;
+    letter-spacing: 2px;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+    
+}
