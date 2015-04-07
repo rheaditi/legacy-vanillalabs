@@ -1,12 +1,14 @@
 $(document).ready(function() {
 
   setHeight();  
-  $(window).resize(function() {
+  $('.scrolly').scrolly();
+  $('body').addClass('loaded');
+});
+
+$(window).resize(function() {
     setHeight();
   });
 
-  $('.scrolly').scrolly();
-});
 
 function setHeight() {
     windowHeight = $(window).innerHeight();
